@@ -353,6 +353,7 @@ hide.bs.select, hidden.bs.select, show.bs.select, and shown.bs.select all have a
 
 ```js
 $('#mySelect').on('hidden.bs.select', function (e) {
+  var selectedValue = e.target.value;
   // do something...
 });
 ```
